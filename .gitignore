@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+.Rhistory
+.RData
+config.json
+outputs/
+data/

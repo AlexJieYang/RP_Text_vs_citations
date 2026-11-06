@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the associated research and this repository when using the code."
+title: "Text vs. citations: a comparative analysis of breakthrough and disruption metrics in patent innovation"
+type: software
+authors:
+  - family-names: Yang
+    given-names: Alex J.
+repository-code: "https://github.com/AlexJieYang/RP_Text_vs_citations"
