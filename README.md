@@ -46,15 +46,13 @@ python -m pip install -r requirements.txt
 ```
 
 Copy `config.example.json` to `config.json`. Set `data_dir` to the study-data
-directory and `output_dir` to the figure destination. Repositories with regression
-figures also use `regression_dir` for regression tables. Relative paths resolve
+directory and `output_dir` to the figure destination. Relative paths resolve
 from the repository root; absolute paths are accepted. `RESEARCH_CONFIG` selects
 another configuration file.
 
 Start `jupyter lab` inside the repository and open the desired notebook. Each
 Python notebook includes its own initialization and data loading. The output
-directories are created automatically. R entry points use the environment
-variables described in their workflow sections.
+directories are created automatically.
 
 ## Source validation
 
@@ -64,7 +62,7 @@ python scripts/check_sources.py
 
 This command validates Python syntax, notebook JSON, configuration JSON, and
 empty notebook execution state. The GitHub Actions workflow performs the same
-static checks. R entry points use an R installation and their listed packages.
+static checks.
 
 ## Citation and license
 
