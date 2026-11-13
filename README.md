@@ -4,6 +4,8 @@ Research code for **Text vs. citations: a comparative analysis of breakthrough
 and disruption metrics in patent innovation**, by Alex J. Yang. The notebooks
 compare text-based KI and citation-based CD metrics in USPTO patent data.
 
+Official faculty profile: [Alex J. Yang — Nanjing University](https://im.nju.edu.cn/info/1103/53391.htm).
+
 ## Workflow
 
 The notebooks in `Codes for paper/` can be run independently with the study-data
